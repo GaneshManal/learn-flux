@@ -11,7 +11,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: podinfo
-  targetNamespace: default
+  targetNamespace: test
   patches:
   - patch: |-
       apiVersion: autoscaling/v2beta2
